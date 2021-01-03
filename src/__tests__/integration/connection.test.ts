@@ -3,7 +3,7 @@ import { ConnectionOptions } from "../../index";
 
 test("lazy connection", async () => {
     const redisOptions: ConnectionOptions = {
-        host: "redislabs-redistimeseries",
+        host: "localhost",
         db: 15,
         lazyConnect: true
     };

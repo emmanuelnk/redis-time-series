@@ -3,7 +3,7 @@ import { Label } from "../../entity/label";
 import { ConnectionOptions } from "../../index";
 
 const options: ConnectionOptions = {
-    host: "redislabs-redistimeseries",
+    host: "localhost",
     db: 14
 };
 const factory = new RedisTimeSeriesFactory(options);

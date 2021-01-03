@@ -1,7 +1,7 @@
 {
-  "name": "redis-time-series-ts",
-  "version": "1.2.3",
-  "description": "Javascript RedisTimeSeries client",
+  "name": "@emmanuelnk/redis-time-series-ts",
+  "version": "1.0.0",
+  "description": "Typescript RedisTimeSeries client",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/averias/redis-time-series.git"
+    "url": "git+https://github.com/emmanuelnk/redis-time-series.git"
   },
   "keywords": [
     "redis",
@@ -28,9 +28,9 @@
     "javascript",
     "typescript"
   ],
-  "author": "Rafa Campoy",
+  "author": "Emmanuel Kyeyune",
   "license": "MIT",
-  "homepage": "https://github.com/averias/redis-time-series",
+  "homepage": "https://github.com/emmanuelnk/redis-time-series",
   "dependencies": {
     "ioredis": "^4.19.4"
   },
